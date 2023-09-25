@@ -1,0 +1,110 @@
+/* Estilos globales para todos los elementos */
+* {
+    /* Define estilos generales para todos los elementos */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport height (vh) */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(white, rgb(204, 204, 89));
+}
+
+/* Estilos para la cabecera, redes sociales y teléfono de contacto */
+#nav {
+    background-color: black !important;
+    box-shadow: 4px 7px 6px black;
+    text-align: right;
+    color: rgb(229, 229, 106);
+}
+
+/* Hamburguesa en dispositvos pequeños*/
+.navbar-toggler{
+    color: #007bff;
+}
+/* Cambia el color de las rayas de la hamburguesa (toggler icon) */
+.navbar-toggler-icon {
+    color: #007bff;
+    border: 2px solid #007bff;
+   
+}
+
+/* Tamaño del logo en la barra de navegación */
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+/* Tamaño de los iconos de Facebook e Instagram */
+#botonfa img {
+    width: 30px;
+    height: auto;
+}
+
+#botonins img {
+    width: 30px;
+}
+
+/* Posicionamiento de los enlaces del menú de navegación, estilo de letra y mayúsculas */
+#navbarScroll {
+   color: #007bff;
+   justify-content: right;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+/* Cambio de color en los enlaces del menú al pasar el mouse */
+#navbarScroll li:hover {
+    color: rgb(229, 229, 106);
+    text-decoration: underline;
+}
+
+/* Estilos para el menú desplegable "Equipos" */
+#submenuequipos {
+    background-color: black;
+}
+
+#submenuequipos a {
+    background-color: transparent;
+    color: blue;
+}
+/*contenedor de jugadores*/
+#alevin{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+/* Estilos para el div de construcción */
+.container {
+    text-align: center;
+}
+
+.construction {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.animated {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.icon {
+    font-size: 100px;
+    color: #333;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

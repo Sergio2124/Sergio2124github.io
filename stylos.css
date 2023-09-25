@@ -1,0 +1,186 @@
+/* Estilos globales para todos los elementos */
+* {
+        /* Define estilos generales para todos los elementos */
+    }
+    
+    /* Estilos para el cuerpo de la página */
+    body {
+        min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport height (vh) */
+        margin: 0; /* Elimina el margen predeterminado del cuerpo */
+        padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(white, rgb(204, 204, 89));
+    }
+    
+    /* Estilos para la cabecera, redes sociales y teléfono de contacto */
+    #nav {
+        box-shadow: 4px 7px 6px black;
+        background-color: black;
+        text-align: right;
+        color: rgb(229, 229, 106);
+    }
+    /* Hamburguesa en dispositvos pequeños*/
+    .navbar-toggler{
+        color: #007bff;
+    }
+    /* Cambia el color de las rayas de la hamburguesa (toggler icon) */
+.navbar-toggler-icon {
+        color: #007bff;
+        border: 2px solid #007bff;
+       
+    }
+    
+    
+    /* Tamaño del logo en la barra de navegación */
+    .navbar-brand img {
+        width: 60px;
+        height: auto;
+    }
+    
+    /* Tamaño de los iconos de Facebook e Instagram */
+    #botonfa img {
+        width: 30px;
+        height: auto;
+    }
+    
+    #botonins img {
+        width: 30px;
+    }
+    
+    /* Posicionamiento de los enlaces del menú de navegación, estilo de letra y mayúsculas */
+    #navbarScroll {
+       justify-content: right;
+        font-family: monospace;
+        text-transform: uppercase;
+    }
+    
+    /* Cambio de color en los enlaces del menú al pasar el mouse */
+    #navbarScroll li:hover {
+        color: rgb(229, 229, 106);
+        text-decoration: underline;
+    }
+    
+    /* Estilos para el menú desplegable "Equipos" */
+    #submenuequipos {
+        background-color: black;
+    }
+    
+    #submenuequipos a {
+        background-color: transparent;
+        color: #007bff;
+    }
+    
+/*carrusel swiper*/
+.swiper {
+   
+  width: 300px;
+  height: 300px;
+  
+
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+    
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+/*div wasap/*
+/* Estilos CSS para centrar el icono de WhatsApp */
+#whatsapp-container {
+        background: none;
+        display: flex;
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        display: none;
+    }
+    
+    #whatsapp-icon {
+        color: green;
+        font-size: 24px; /* Tamaño del icono de WhatsApp */
+        text-align: center; /* Espacio entre el icono y el texto */
+    }
+    /* Clase CSS para mostrar el elemento */
+.visible {
+        display: flex !important;
+        justify-content: center;
+        margin-bottom: 20px;
+         /* !important se usa para asegurarse de que anule cualquier otra regla display */
+        /* Otros estilos... */
+      }
+      
+
+
+
+
+
+.swiper-slide img{
+     width: 100%;  
+       height: 100%;
+       object-fit: cover;
+       object-position: center center;
+
+}
+.container.mt-4 {
+
+        
+        margin-top: 100px !important;
+    }
+    /*enlaces*/
+.tecnificacion,
+.instalaciones,
+.resultado,
+.entrenadores{
+        
+        text-align: center;
+      font-family: monospace;
+        color: black;
+        text-transform: uppercase;
+}
+
+/*borde del los enlaces a las secciones noticias resultados etc..*/
+.contenedor-flex :hover{
+        color: #007bff;
+}
+
+/*iconos de pie pagina, borde amarillo llamado desde javascrips*/
+
+
+.list-unstyled i :hover{
+        border: solid yellow;
+}
+    
+#fotter{
+        text-align: center;
+        padding-bottom: 0%;
+        margin-top: auto;
+        background-color: black;
+        
+
+}
+.col-md-4 h5{
+       margin-top: 10px;
+}
+#fondoslider{
+
+        border:solid;
+        margin-top: 30px;
+        background:linear-gradient(#007bff,white);
+        
+}
+ #textoizquierda{
+       display: inline-block;
+       overflow: hidden;
+        margin-top: 7%;
+        text-align: center;
+        font-family: monospace;
+     
+ }
+ #texto-container {
+        display: inline-block;
+    }

@@ -1,0 +1,137 @@
+* {    
+        
+     
+}
+
+body{
+        
+        min-height: 100vh; /* Establece la altura mínima del cuerpo al 100% del viewport height (vh) */
+        margin: 0; /* Elimina el margen predeterminado del cuerpo */
+        padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(white,rgb(204, 204, 89));
+}
+
+      
+/*cabezera,redes sociales y telefonode contacto*/
+#nav{
+        box-shadow: 4px 7px 6px black;
+        background-color: black;
+        text-align: right;
+        color: rgb(229, 229, 106);
+
+}
+/*tamaño del logo*/
+.navbar-brand img{
+        width: 60px;
+        height: auto;
+}
+/*tamaño de el icono face, insta*/
+#botonfa img{
+        width: 30px;
+        height: auto;
+}
+#botonins img{
+        width: 30px;
+}
+/*posicionamiento de los enlaces del nav su letra y las mayusculas*/
+#navbarScroll{
+        justify-content: right;
+      
+        font-family: monospace;
+        text-transform: uppercase;      
+        
+}
+/*que cambie de color cuando me poso*/
+#navbarScroll li :hover{
+        color: rgb(229, 229, 106);
+       text-decoration: underline;
+}
+#submenuequipos{
+        
+        background-color: black;
+}
+#submenuequipos a{
+        background-color: transparent;
+        color: #007bff;
+     }
+
+
+
+
+
+#fotter{
+        text-align: center;
+        padding-bottom: 0%;
+        margin-top: auto;
+        background-color: black;
+        
+
+}
+.col-md-4 h5{
+       margin-top: 10px;
+}
+
+#form{
+        border:solid;
+        box-shadow: 7px 8px 9px;
+        text-align: center;
+        background: linear-gradient(#007bff,white);
+        margin-top: 40px;
+        
+}
+#formulario button{
+       box-shadow: 2px 2px 2px black;
+        margin-bottom: 5px;
+      
+}
+.col-md-12 label{
+        font-family: monospace;
+        color: black;
+
+}
+.col-md-12 input{
+        border: solid black;
+
+}
+.custom-container {
+        max-width: 600px; /* Cambia este valor según tus necesidades */
+      }
+ .highlighted-icon {
+        border: 2px solid yellow; /* Agrega el estilo de borde amarillo cuando se destaca */
+    }
+          
+    #exampleFormControlTextarea1{
+        border: solid black;
+    }
+    /*div wasap/*
+/* Estilos CSS para centrar el icono de WhatsApp */
+#whatsapp-container {
+        background: none;
+        display: flex;
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        display: none;
+    }
+    
+    #whatsapp-icon {
+        text-transform: uppercase;
+        color: green;
+        font-size: 24px; /* Tamaño del icono de WhatsApp */
+        text-align: center; /* Espacio entre el icono y el texto */
+    }
+    /* Clase CSS para mostrar el elemento */
+.visible {
+        display: flex !important;
+        justify-content: center;
+        margin-bottom: 20px;
+         /* !important se usa para asegurarse de que anule cualquier otra regla display */
+        /* Otros estilos... */
+      }
+      #whatsapp-icon :hover{
+        text-decoration: underline;
+        
+      }
+
+      
